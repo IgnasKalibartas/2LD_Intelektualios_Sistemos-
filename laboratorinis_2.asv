@@ -1,0 +1,28 @@
+clear all
+clc
+
+% 1) Sugeneruojamos pradines reiksmes. Apskaiciuojamas tinklo atsakas. 
+x = 0.1:1/22:1;
+y = (1 + 0.6*sin(2*pi*x/0.7)) + 0.3*sin(2*pi*x)/2;
+
+% 2) Sugeneruojamos pradiniai svoriai
+
+w1_1 = randn(1);
+w2_1 = randn(1);
+w3_1 = randn(1);
+w4_1 = randn(1);
+
+b1_1 = randn(1);
+b2_1 = randn(1);
+b3_1 = randn(1);
+b4_1 = randn(1);
+
+v1_1 = x(1) * w1 + b_1;
+y1_1 = 1 / (1 + exp(-v1_1)); % sigmoidine aktyvavimo f-ja
+
+
+
+
+
+
+
